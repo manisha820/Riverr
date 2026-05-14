@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { Navbar } from '@/components/shared/Navbar';
-import { Mic, Square, Save, Download, Sparkles, Wand2 } from 'lucide-react';
+import { Mic, Square, Save, Download, Sparkles, Wand2, FileText } from 'lucide-react';
 import { useTranscription } from '@/hooks/useTranscription';
 
 export default function Workspace() {
