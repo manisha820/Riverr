@@ -40,7 +40,7 @@ export const ProductionValidator = {
           supabase.removeChannel(channel);
           resolve({ success: true });
         })
-        .subscribe((status) => {
+        .subscribe((status: string) => {
           if (status === 'TIMED_OUT') resolve({ success: false, error: 'Connection timed out' });
         });
     });
